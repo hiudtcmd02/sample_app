@@ -1,0 +1,6 @@
+user:
+  name_user:
+    max_length: 50
+  email:
+    max_length: 255
+    email_regex: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z

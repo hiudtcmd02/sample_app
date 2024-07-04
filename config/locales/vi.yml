@@ -3,6 +3,11 @@ vi:
   vietnamese: "Tiếng Việt"
   home: "Trang chủ"
   help: "Trợ giúp"
+  user: "Người dùng"
+  account: "Tài khoản"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
   log_in: "Đăng nhập"
   submit: "Xác nhận"
 
@@ -79,6 +84,8 @@ vi:
     user_c:
       user_not_found: "Không tìm thấy người dùng"
       u_create_success: "Người dùng đã tạo thành công"
+    sessions_c:
+      invalid: "Email hoặc mật khẩu không đúng"
 
   title:
     static_pages:
@@ -91,4 +98,16 @@ vi:
     users:
       new:
         title: "Đăng ký"
+        name: "Họ và tên"
+        password: "Mật khẩu"
+        confirmation: "Xác nhận mật khẩu"
         create_my_account: "Tạo tài khoản của tôi"
+    sessions:
+      new:
+        password: "Mật khẩu"
+        new_user?: "Chưa có tài khoản?"
+        sign_up_now: "Đăng ký ngay!"
+    shared:
+      errors:
+        the_form_contains: "Biểu mẫu có"
+        error: "lỗi"

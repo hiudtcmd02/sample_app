@@ -31,6 +31,13 @@
 
 en:
   home: "Home"
+  help: "Help"
+  user: "Users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  log_in: "Log in"
   submit: "Submit"
 
   demo_partials:
@@ -106,6 +113,8 @@ en:
     user_c:
       user_not_found: "User not found"
       u_create_success: "User created successful"
+    sessions_c:
+      invalid: "Email or password is incorrect"
 
   title:
     static_pages:
@@ -118,4 +127,16 @@ en:
     users:
       new:
         title: "Sign up"
+        name: "Name"
+        password: "Password"
+        confirmation: "Confirmation"
         create_my_account: "Create my account"
+    sessions:
+      new:
+        password: "Password"
+        new_user?: "New User?"
+        sign_up_now: "Sign Up Now!"
+    shared:
+      errors:
+        the_form_contains: "The form contains"
+        error: "error"

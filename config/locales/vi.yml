@@ -96,6 +96,14 @@ vi:
     account_activation_c:
       acc_active: "Tài khoản đã được kích hoạt!"
       acc_invalid: "Liên kết kích hoạt không hợp lệ"
+    pw_reset_c:
+      sent_mail_success: "Email được gửi kèm hướng dẫn đặt lại mật khẩu"
+      sent_mail_fail: "Không tìm thấy địa chỉ email"
+      error_pw_empty: "(Mật khẩu) không thể để trống"
+      pw_reset_sc: "Đặt lại mật khẩu thành công"
+      user_not_found: "Không tìm thấy người dùng!"
+      user_inactive: "Người dùng chưa được kích hoạt!"
+      pw_re_expire: "Việc đặt lại mật khẩu đã hết hạn."
 
   title:
     static_pages:
@@ -105,6 +113,9 @@ vi:
       new: "Đăng ký"
       edit: "Cập nhật người dùng"
       index: "Tất cả người dùng"
+    password_resets:
+      new: "Quên mật khẩu"
+      edit: "Đặt lại mật khẩu"
 
   views:
     users:
@@ -126,6 +137,7 @@ vi:
     sessions:
       new:
         password: "Mật khẩu"
+        forgot_pw: "(quên mật khẩu)"
         new_user?: "Chưa có tài khoản?"
         remember_me: "Hãy nhớ tôi trên máy tính này"
         sign_up_now: "Đăng ký ngay!"
@@ -137,7 +149,21 @@ vi:
       title: "Ứng dụng mẫu"
       welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
       active: "Kích hoạt"
+      pw_reset_title: "Đặt lại mật khẩu"
+      pw_re_sup: "Để đặt lại mật khẩu của bạn hãy nhấp vào liên kết bên dưới:"
+      reset_pw_link: "Đặt lại mật khẩu"
+      link_time_expire: "Liên kết này sẽ hết hạn sau hai giờ."
+      last_remind: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+    password_resets:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
+      edit:
+        title: "Đặt lại mật khẩu"
+        password: "Mật khẩu"
+        confirmation: "Xác nhận mật khẩu"
+        update_pw: "Cập nhật mật khẩu"
 
   mailer:
     user_mailer:
       account_activation: "Kích hoạt tài khoản"
+      pw_reset: "Đặt lại mật khẩu"

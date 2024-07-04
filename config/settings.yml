@@ -14,3 +14,5 @@ size:
     size_50: 50
 port:
   smtp_mailtrap: 587
+time_expire:
+  two_h: 2

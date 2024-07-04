@@ -12,6 +12,7 @@ size:
   gravatar:
     size_80: 80
     size_50: 50
+    size_30: 30
   img:
     mb_5: 5
     size_500: 500

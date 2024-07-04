@@ -91,6 +91,8 @@ vi:
       destroy_fail: "Xóa người dùng thất bại!"
       not_logged_in: "Hãy đăng nhập."
       can_not_edit: "Bạn không thể chỉnh sửa tài khoản này."
+      following: "Đang theo dõi"
+      follower: "Người theo dõi"
     sessions_c:
       invalid: "Email hoặc mật khẩu không đúng"
       acc_not_active: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để lấy liên kết kích hoạt."
@@ -110,6 +112,9 @@ vi:
       delete_success: "Bài đăng đã được xóa"
       delete_fail: "Xóa bài đăng thất bại"
       wrong_user: "Bài đăng không hợp lệ"
+    relationship_c:
+      user_not_found: "Không tìm thấy người dùng!"
+      relationship_not_found: "Không tìm thấy mối quan hệ!"
 
   title:
     static_pages:
@@ -140,6 +145,14 @@ vi:
         change_avt: "Đổi"
       index:
         title: "Tất cả người dùng"
+      show:
+        micropost: "Bài đăng"
+      show_follow:
+        view_profile: "xem hồ sơ của tôi"
+        micropost: "Bài đăng:"
+      partial:
+        follow: "Theo dõi"
+        unfollow: "Hủy theo dõi"
     sessions:
       new:
         password: "Mật khẩu"
@@ -157,6 +170,9 @@ vi:
       microp_form:
         writting: "Soạn bài đăng mới..."
         post: "Đăng"
+      stats:
+        following: "đang theo dõi"
+        follower: "người theo dõi"
     user_mailer:
       title: "Ứng dụng mẫu"
       welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"

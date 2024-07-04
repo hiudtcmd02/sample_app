@@ -120,6 +120,8 @@ en:
       destroy_fail: "Delete fail!"
       not_logged_in: "Please log in."
       can_not_edit: "You cannot edit this account."
+      following: "Following"
+      follower: "Followers"
     sessions_c:
       invalid: "Email or password is incorrect"
       acc_not_active: "Account not activated. Check your email for the activation link."
@@ -139,6 +141,9 @@ en:
       delete_success: "Micropost deleted"
       delete_fail: "Deleted fail"
       wrong_user: "Micropost invalid"
+    relationship_c:
+      user_not_found: "Not found users!"
+      relationship_not_found: "Not found relationship!"
 
   title:
     static_pages:
@@ -169,6 +174,14 @@ en:
         change_avt: "change"
       index:
         title: "All users"
+      show:
+        micropost: "Microposts"
+      show_follow:
+        view_profile: "view my profile"
+        micropost: "Microposts:"
+      partial:
+        follow: "Follow"
+        unfollow: "Unfollow"
     sessions:
       new:
         password: "Password"
@@ -186,6 +199,9 @@ en:
       microp_form:
         writting: "Compose new micropost..."
         post: "Post"
+      stats:
+        following: "following"
+        follower: "followers"
     user_mailer:
       title: "Sample App"
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"

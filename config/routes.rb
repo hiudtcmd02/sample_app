@@ -13,7 +13,11 @@ Rails.application.routes.draw do
 
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
-    resources :users
+    resources :users do
+      member do
+        get :following, :followers
+      end
+    end
 
     resources :account_activations, only: :edit
 
@@ -22,6 +26,8 @@ Rails.application.routes.draw do
     resources :products
 
     resources :microposts, only: %i(create destroy)
+
+    resources :relationships, only: %i(create destroy)
   end
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

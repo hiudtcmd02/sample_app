@@ -12,4 +12,5 @@ length: {maximum: Settings.digit.digit_140}
                     size: {less_than: Settings.size.img.mb_5.megabytes}
 
   scope :newest, ->{order created_at: :desc}
+  scope :relate_post, ->(user_ids){where user_id: user_ids}
 end

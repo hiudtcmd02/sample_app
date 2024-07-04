@@ -14,24 +14,24 @@ AllCops:
   # Include gemspec and Rakefile
   SuggestExtensions: false
   Include:
-    - 'app/**/*'
-    - 'lib/**/*'
-    - '**/*.gemspec'
-    - 'Gemfile'
+    - "app/**/*"
+    - "lib/**/*"
+    - "**/*.gemspec"
+    - "Gemfile"
   Exclude:
-    - 'vendor/**/*'
-    - 'config/unicorn.rb'
-    - 'bin/*'
-    - 'db/**/*'
-    - 'spec/**/*'
-    - 'script/rails'
-    - 'config/**/*'
-    - 'app/views/**/*'
-    - 'app/assets/**/*'
-    - 'app/javascript/**/*'
-    - '.idea/**/*'
-    - '**/.DS_Store'
-    - '**/.keep'
+    - "vendor/**/*"
+    - "config/unicorn.rb"
+    - "bin/*"
+    - "db/**/*"
+    - "spec/**/*"
+    - "script/rails"
+    - "config/**/*"
+    - "app/views/**/*"
+    - "app/assets/**/*"
+    - "app/javascript/**/*"
+    - ".idea/**/*"
+    - "**/.DS_Store"
+    - "**/.keep"
 
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
@@ -179,11 +179,11 @@ Style/CollectionMethods:
   #   PreferredMethods:
   #     find: detect
   PreferredMethods:
-    collect: 'map'
-    collect!: 'map!'
-    inject: 'reduce'
-    detect: 'find'
-    find_all: 'select'
+    collect: "map"
+    collect!: "map!"
+    inject: "reduce"
+    detect: "find"
+    find_all: "select"
 
 # Checks formatting of special comments
 Style/CommentAnnotation:
@@ -228,9 +228,9 @@ Layout/EmptyLinesAroundModuleBody:
 
 Naming/FileName:
   Exclude:
-    - '**/Rakefile'
-    - '**/Gemfile'
-    - '**/Capfile'
+    - "**/Rakefile"
+    - "**/Gemfile"
+    - "**/Capfile"
 
 # Checks use of for or each in multiline loops.
 Style/For:
@@ -336,15 +336,15 @@ Style/ParenthesesAroundCondition:
 
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
-    '%':  ()
-    '%i': ()
-    '%q': ()
-    '%Q': ()
-    '%r': '{}'
-    '%s': ()
-    '%w': ()
-    '%W': ()
-    '%x': ()
+    "%":  ()
+    "%i": ()
+    "%q": ()
+    "%Q": ()
+    "%r": "{}"
+    "%s": ()
+    "%w": ()
+    "%W": ()
+    "%x": ()
 
 Naming/PredicateName:
   ForbiddenPrefixes:

@@ -1,0 +1,81 @@
+vi:
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  log_in: "Đăng nhập"
+  submit: "Xác nhận"
+
+  demo_partials:
+    zone: "Khu vực"
+    date: "Ngày"
+    edit:
+      title: "Chỉnh sửa khu vực"
+    new:
+      title: "Thêm khu vực"
+
+  layouts:
+    application:
+      base_title: "Ứng dụng mẫu hướng dẫn Rails"
+
+  static_pages:
+    help:
+      title: "Trợ giúp"
+      rails_tutorial_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      rails_tutorial_help_link: "Trang trợ giúp Hướng dẫn Rails"
+      sample_app_help: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      ruby_on_rails_tutorial_book: "sách Hướng dẫn Ruby on Rails"
+    home:
+      title: "Ứng dụng mẫu"
+      rails_tutorial_home: "Đây là trang chủ của"
+      rails_tutorial_link: "Hướng dẫn Ruby on Rails"
+      sample_app: "ứng dụng mẫu"
+
+  products:
+    form:
+      errors_notification: "(lỗi) cấm lưu sản phẩm này"
+      name: "Tên sản phẩm"
+    product:
+      show: "Xem"
+      edit: "Sửa"
+      destroy: "Xóa"
+      confirm: "Bạn chắc chắn không"
+    showProduct:
+      name: "Tên sản phẩm"
+    edit:
+      title: "Cập nhật sản phẩm"
+      show: "Xem sản phẩm này"
+      back: "Quay lại danh sách sản phẩm"
+    index:
+      title: "Danh sách sản phẩm"
+      cl_name: "Tên sản phẩm"
+      no_product: "Không có sản phẩm nào"
+      new_product: "Thêm sản phẩm"
+    new:
+      title: "Thêm sản phẩm"
+      back: "Quay lại danh sách sản phẩm"
+    show:
+      edit: "Cập nhật sản phẩm này"
+      back: "Quay lại danh sách sản phẩm"
+      destroy: "Xóa sản phẩm này"
+
+  date:
+    formats:
+      default: "%d/%m/%Y"
+
+  demo_partials_c:
+    new:
+      zone: "Khu hành động mới"
+    edit:
+      zone: "Khu hành động chỉnh sửa"
+
+  products_c:
+    notice:
+      create: "Sản phẩm đã được tạo thành công."
+      update: "Sản phẩm đã được cập nhật thành công."
+      destroy: "Sản phẩm đã được xóa thành công."
+
+  title:
+    static_pages:
+      home: "Trang chủ"
+      help: "Trợ giúp"

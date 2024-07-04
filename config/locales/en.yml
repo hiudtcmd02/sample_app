@@ -30,4 +30,79 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  home: "Home"
+  submit: "Submit"
+
+  demo_partials:
+    zone: "Zone"
+    date: "Date"
+    edit:
+      title: "Editing zone"
+    new:
+      title: "New zone"
+
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+
+  static_pages:
+    help:
+      title: "Help"
+      rails_tutorial_help: "Get help on the Ruby on Rails Tutorial at the"
+      rails_tutorial_help_link: "Rails Tutorial help page"
+      sample_app_help: "To get help on this sample app, see the"
+      ruby_on_rails_tutorial_book: "Ruby on RailsTutorial book"
+    home:
+      title: "Sample App"
+      rails_tutorial_home: "This is the home page for the"
+      rails_tutorial_link: "Ruby on Rails Tutorial"
+      sample_app: "sample application"
+
+  products:
+    form:
+      errors_notification: "prohibited this product from being saved"
+      name: "Name"
+    product:
+      show: "Show"
+      edit: "Edit"
+      destroy: "Destroy"
+      confirm: "Are you sure"
+    showProduct:
+      name: "Name"
+    edit:
+      title: "Editing product"
+      show: "Show this product"
+      back: "Back to products"
+    index:
+      title: "Products"
+      cl_name: "Name"
+      no_product: "No Products"
+      new_product: "New product"
+    new:
+      title: "New product"
+      back: "Back to products"
+    show:
+      edit: "Edit this product"
+      back: "Back to products"
+      destroy: "Destroy this product"
+
+  date:
+    formats:
+      default: "%B %d, %Y"
+
+  demo_partials_c:
+    new:
+      zone: "Zone New action"
+    edit:
+      zone: "Zone Edit action"
+
+  products_c:
+    notice:
+      create: "Product was successfully created."
+      update: "Product was successfully updated."
+      destroy: "Product was successfully destroyed."
+
+  title:
+    static_pages:
+      home: "HOME"
+      help: "Help"

@@ -106,6 +106,7 @@ vi:
       new:
         password: "Mật khẩu"
         new_user?: "Chưa có tài khoản?"
+        remember_me: "Hãy nhớ tôi trên máy tính này"
         sign_up_now: "Đăng ký ngay!"
     shared:
       errors:

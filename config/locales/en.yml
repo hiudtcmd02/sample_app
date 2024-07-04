@@ -64,6 +64,7 @@ en:
       rails_tutorial_home: "This is the home page for the"
       rails_tutorial_link: "Ruby on Rails Tutorial"
       sample_app: "sample application"
+      post_title: "Micropost Feed"
 
   products:
     form:
@@ -133,6 +134,11 @@ en:
       user_not_found: "User not found!"
       user_inactive: "User is in actived!"
       pw_re_expire: "Password reset has expired."
+    microp_c:
+      create_success: "Micropost created!"
+      delete_success: "Micropost deleted"
+      delete_fail: "Deleted fail"
+      wrong_user: "Micropost invalid"
 
   title:
     static_pages:
@@ -174,6 +180,12 @@ en:
       errors:
         the_form_contains: "The form contains"
         error: "error"
+      user_info:
+        view_profile: "view my profile"
+        micropost: "micropost"
+      microp_form:
+        writting: "Compose new micropost..."
+        post: "Post"
     user_mailer:
       title: "Sample App"
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
@@ -191,8 +203,18 @@ en:
         password: "Password"
         confirmation: "Confirmation"
         update_pw: "Update password"
+    microposts:
+      render_micro:
+        posted: "Posted"
+        ago: "ago."
+        delete: "delete"
+        u_sure: "You sure?"
 
   mailer:
     user_mailer:
       account_activation: "Account activation"
       pw_reset: "Password reset"
+
+  js:
+    img_up:
+      alert: "Maximum file size is 5MB. Please choose a smaller file."

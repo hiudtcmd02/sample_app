@@ -2,6 +2,8 @@ class User < ApplicationRecord
   before_save :downcase_email
   before_create :create_activation_digest
 
+  has_many :microposts, dependent: :destroy
+
   validates :name, presence: true,
              length: {maximum: Settings.user.name_user.max_length}
   validates :email, presence: true,
@@ -15,8 +17,6 @@ class User < ApplicationRecord
   has_secure_password
 
   attr_accessor :remember_token, :activation_token, :reset_token
-
-  scope :newest_created_at, ->{order(created_at: :desc)}
 
   scope :newest_created_at, ->{order(created_at: :desc)}
 
@@ -34,6 +34,10 @@ class User < ApplicationRecord
     def new_token
       SecureRandom.urlsafe_base64
     end
+  end
+
+  def feed
+    microposts
   end
 
   def password_reset_expired?

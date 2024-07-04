@@ -35,6 +35,7 @@ vi:
       rails_tutorial_home: "Đây là trang chủ của"
       rails_tutorial_link: "Hướng dẫn Ruby on Rails"
       sample_app: "ứng dụng mẫu"
+      post_title: "Nguồn cấp dữ liệu bài đăng"
 
   products:
     form:
@@ -104,6 +105,11 @@ vi:
       user_not_found: "Không tìm thấy người dùng!"
       user_inactive: "Người dùng chưa được kích hoạt!"
       pw_re_expire: "Việc đặt lại mật khẩu đã hết hạn."
+    microp_c:
+      create_success: "Đã tạo bài đăng!"
+      delete_success: "Bài đăng đã được xóa"
+      delete_fail: "Xóa bài đăng thất bại"
+      wrong_user: "Bài đăng không hợp lệ"
 
   title:
     static_pages:
@@ -145,6 +151,12 @@ vi:
       errors:
         the_form_contains: "Biểu mẫu có"
         error: "lỗi"
+      user_info:
+        view_profile: "xem hồ sơ của tôi"
+        micropost: "bài đăng"
+      microp_form:
+        writting: "Soạn bài đăng mới..."
+        post: "Đăng"
     user_mailer:
       title: "Ứng dụng mẫu"
       welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
@@ -162,8 +174,18 @@ vi:
         password: "Mật khẩu"
         confirmation: "Xác nhận mật khẩu"
         update_pw: "Cập nhật mật khẩu"
+    microposts:
+      render_micro:
+        posted: "Đã đăng"
+        ago: "trước."
+        delete: "xóa"
+        u_sure: "Bạn chắc chắn không?"
 
   mailer:
     user_mailer:
       account_activation: "Kích hoạt tài khoản"
       pw_reset: "Đặt lại mật khẩu"
+
+  js:
+    img_up:
+      alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."

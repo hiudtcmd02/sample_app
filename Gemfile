@@ -51,6 +51,9 @@ gem "figaro"
 gem "pagy"
 gem "rails-i18n"
 
+gem "active_storage_validations", "0.9.8"
+gem "image_processing", "1.12.2"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

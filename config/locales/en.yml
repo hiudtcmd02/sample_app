@@ -113,6 +113,11 @@ en:
     user_c:
       user_not_found: "User not found"
       u_create_success: "User created successful"
+      profile_updated: "Profile updated"
+      destroy_success: "User deleted"
+      destroy_fail: "Delete fail!"
+      not_logged_in: "Please log in."
+      can_not_edit: "You cannot edit this account."
     sessions_c:
       invalid: "Email or password is incorrect"
 
@@ -122,6 +127,8 @@ en:
       help: "Help"
     users:
       new: "Signup"
+      edit: "Edit user"
+      index: "All users"
 
   views:
     users:
@@ -131,6 +138,15 @@ en:
         password: "Password"
         confirmation: "Confirmation"
         create_my_account: "Create my account"
+      user:
+        delete: "Delete"
+        sure?: "You sure?"
+      edit:
+        title: "Update your profile"
+        save_change: "Save changes"
+        change_avt: "change"
+      index:
+        title: "All users"
     sessions:
       new:
         password: "Password"

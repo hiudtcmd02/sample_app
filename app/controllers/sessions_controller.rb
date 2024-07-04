@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
       else
         forget(user)
       end
-      redirect_to user, status: :see_other
+      redirect_back_or user
     else
       flash.now[:danger] = t "controller.sessions_c.invalid"
       render :new, status: :unprocessable_entity

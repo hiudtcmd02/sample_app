@@ -18,6 +18,8 @@ class UsersController < ApplicationController
 
     if @user.save
       # something
+      reset_session
+      log_in @user
       flash[:success] = t("controller.user_c.u_create_success")
       redirect_to @user
     else

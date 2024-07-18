@@ -75,7 +75,20 @@ vi:
       update: "Sản phẩm đã được cập nhật thành công."
       destroy: "Sản phẩm đã được xóa thành công."
 
+  controller:
+    user_c:
+      user_not_found: "Không tìm thấy người dùng"
+      u_create_success: "Người dùng đã tạo thành công"
+
   title:
     static_pages:
       home: "Trang chủ"
       help: "Trợ giúp"
+    users:
+      new: "Đăng ký"
+
+  views:
+    users:
+      new:
+        title: "Đăng ký"
+        create_my_account: "Tạo tài khoản của tôi"

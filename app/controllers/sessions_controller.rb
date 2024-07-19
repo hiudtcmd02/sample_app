@@ -2,9 +2,14 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by(email: params.dig(:session, :email)&.downcase)
     if user&.authenticate(params.dig(:session, :password))
-      # Log the user in and redirect to the user's show page.
-      reset_session
+      # reset_session
       log_in user
+      if params.dig(:session,
+                    :remember_me) == "1"
+        remember(user)
+      else
+        forget(user)
+      end
       redirect_to user, status: :see_other
     else
       flash.now[:danger] = t "controller.sessions_c.invalid"

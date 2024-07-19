@@ -135,6 +135,7 @@ en:
       new:
         password: "Password"
         new_user?: "New User?"
+        remember_me: "Remember me on this computer"
         sign_up_now: "Sign Up Now!"
     shared:
       errors:

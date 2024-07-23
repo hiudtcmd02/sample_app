@@ -7,10 +7,15 @@ class User < ApplicationRecord
              length: {maximum: Settings.user.email.max_length},
              format: {with: Regexp.new(Settings.user.email.email_regex)},
              uniqueness: true
+  validates :password, presence: true,
+              length: {minimum: Settings.user.password.min_length},
+               allow_nil: true
 
   has_secure_password
 
   attr_accessor :remember_token
+
+  scope :newest_created_at, ->{order(created_at: :desc)}
 
   class << self
     # Returns the hash digest of the given string.

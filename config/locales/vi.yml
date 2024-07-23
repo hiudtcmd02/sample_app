@@ -84,6 +84,11 @@ vi:
     user_c:
       user_not_found: "Không tìm thấy người dùng"
       u_create_success: "Người dùng đã tạo thành công"
+      profile_updated: "Cập nhật thông tin thành công"
+      destroy_success: "Xóa người dùng thành công"
+      destroy_fail: "Xóa người dùng thất bại!"
+      not_logged_in: "Hãy đăng nhập."
+      can_not_edit: "Bạn không thể chỉnh sửa tài khoản này."
     sessions_c:
       invalid: "Email hoặc mật khẩu không đúng"
 
@@ -93,6 +98,8 @@ vi:
       help: "Trợ giúp"
     users:
       new: "Đăng ký"
+      edit: "Cập nhật người dùng"
+      index: "Tất cả người dùng"
 
   views:
     users:
@@ -102,6 +109,15 @@ vi:
         password: "Mật khẩu"
         confirmation: "Xác nhận mật khẩu"
         create_my_account: "Tạo tài khoản của tôi"
+      user:
+        delete: "Xóa"
+        sure?: "Bạn chắc chắn không?"
+      edit:
+        title: "Cập nhật thông tin cá nhân của bạn"
+        save_change: "Lưu thay đổi"
+        change_avt: "Đổi"
+      index:
+        title: "Tất cả người dùng"
     sessions:
       new:
         password: "Mật khẩu"

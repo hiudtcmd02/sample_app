@@ -4,3 +4,11 @@ user:
   email:
     max_length: 255
     email_regex: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
+  password:
+    min_length: 6
+pages:
+  page_10: 10
+size:
+  gravatar:
+    size_80: 80
+    size_50: 50

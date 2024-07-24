@@ -82,6 +82,7 @@ vi:
 
   controller:
     user_c:
+      check_email_active: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
       user_not_found: "Không tìm thấy người dùng"
       u_create_success: "Người dùng đã tạo thành công"
       profile_updated: "Cập nhật thông tin thành công"
@@ -91,6 +92,10 @@ vi:
       can_not_edit: "Bạn không thể chỉnh sửa tài khoản này."
     sessions_c:
       invalid: "Email hoặc mật khẩu không đúng"
+      acc_not_active: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để lấy liên kết kích hoạt."
+    account_activation_c:
+      acc_active: "Tài khoản đã được kích hoạt!"
+      acc_invalid: "Liên kết kích hoạt không hợp lệ"
 
   title:
     static_pages:
@@ -128,3 +133,11 @@ vi:
       errors:
         the_form_contains: "Biểu mẫu có"
         error: "lỗi"
+    user_mailer:
+      title: "Ứng dụng mẫu"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      active: "Kích hoạt"
+
+  mailer:
+    user_mailer:
+      account_activation: "Kích hoạt tài khoản"

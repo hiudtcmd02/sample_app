@@ -12,3 +12,5 @@ size:
   gravatar:
     size_80: 80
     size_50: 50
+port:
+  smtp_mailtrap: 587

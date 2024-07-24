@@ -111,6 +111,7 @@ en:
 
   controller:
     user_c:
+      check_email_active: "Please check your email to activate your account."
       user_not_found: "User not found"
       u_create_success: "User created successful"
       profile_updated: "Profile updated"
@@ -120,6 +121,10 @@ en:
       can_not_edit: "You cannot edit this account."
     sessions_c:
       invalid: "Email or password is incorrect"
+      acc_not_active: "Account not activated. Check your email for the activation link."
+    account_activation_c:
+      acc_active: "Account activated!"
+      acc_invalid: "Invalid activation link"
 
   title:
     static_pages:
@@ -157,3 +162,11 @@ en:
       errors:
         the_form_contains: "The form contains"
         error: "error"
+    user_mailer:
+      title: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Activate"
+
+  mailer:
+    user_mailer:
+      account_activation: "Account activation"

@@ -46,6 +46,8 @@ gem "bootstrap-sass", "3.4.1"
 gem "bcrypt", "3.1.18"
 gem "config"
 gem "faker", "2.21.0"
+gem "figaro"
+
 gem "pagy"
 gem "rails-i18n"
 

@@ -20,6 +20,8 @@ Rails.application.routes.draw do
     resources :password_resets, only: %i(new create edit update)
 
     resources :products
+
+    resources :microposts, only: %i(create destroy)
   end
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
